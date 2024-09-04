@@ -31,11 +31,32 @@
 				"microsoft/gioi-thieu",
 				{
 					"group": "Xác thực",
+                    "icon": "lock",
 					"pages": [
+						"microsoft/authentication/dang-nhap",
 						"microsoft/authentication/2fa",
 						"microsoft/authentication/quen-mat-khau"
 					]
-				}
+				}, {
+                    "group": "Outlook",
+                    "icon": "envelope",
+                    "pages": [
+                        "microsoft/outlook/tao-chu-ky-email",
+                        "microsoft/outlook/gui-nhan-mail"
+                    ]
+                }, {
+                    "group": "OneDrive",
+                    "icon": "cloud",
+                    "pages": [
+                        "microsoft/onedrive/huong-dan-tai-len"
+                    ]
+                }, {
+                    "group": "Sharepoint",
+                    "icon": "share",
+                    "pages": [
+                        "microsoft/sharepoint/upload"
+                    ]
+                }
 			]
 		}
 	],
