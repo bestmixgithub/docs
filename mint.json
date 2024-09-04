@@ -41,6 +41,7 @@
                     "group": "Outlook",
                     "icon": "envelope",
                     "pages": [
+                        "microsoft/outlook/tong-quan",
                         "microsoft/outlook/tao-chu-ky-email",
                         "microsoft/outlook/gui-nhan-mail"
                     ]
