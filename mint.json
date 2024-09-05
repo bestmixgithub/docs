@@ -34,9 +34,9 @@
 					"group": "Xác thực",
                     "icon": "lock",
 					"pages": [
-						"microsoft/authentication/dang-nhap",
-						"microsoft/authentication/2fa",
-						"microsoft/authentication/quen-mat-khau"
+						"microsoft/account/dang-nhap",
+						"microsoft/account/2fa",
+						"microsoft/account/quen-mat-khau"
 					]
 				}, {
                     "group": "Outlook",
