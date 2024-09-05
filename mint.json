@@ -29,6 +29,7 @@
 			"group": "Microsoft 365",
 			"pages": [
 				"microsoft/gioi-thieu",
+                "microsoft/chao-mung",
 				{
 					"group": "Xác thực",
                     "icon": "lock",
