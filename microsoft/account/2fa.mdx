@@ -8,78 +8,118 @@ Bảo mật 2 lớp (Two-Factor Authentication - 2FA) giúp tăng cường bảo
 **Lưu ý**: Việc cài đặt 2FA là bắt buộc đối với toàn bộ nhân viên công ty để bảo vệ thông tin cá nhân và dữ liệu quan trọng.
 </Note>
 
+## Video hướng dẫn cài đặt
+
+<iframe width="850"
+  height="500" src="https://www.youtube.com/embed/JCFAoMPFq-Q" title="Overview of multi factor authentication" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Hướng dẫn chi tiết bằng hình ảnh
+
 <Steps>
 <Step title="Đăng nhập vào Tài khoản Microsoft 365">
 
-Trước tiên, hãy đăng nhập vào tài khoản Microsoft 365 của bạn theo hướng dẫn [Đăng nhập Tài khoản Microsoft 365](./huong-dan-dang-nhap).
+Trước tiên, hãy đăng nhập vào tài khoản Microsoft 365 của bạn theo hướng dẫn [Đăng nhập Tài khoản Microsoft 365](/microsoft/account/dang-nhap).
 
-Trường hợp được yêu cầu cài đặt 2FA, bạn sẽ nhận được thông báo yêu cầu cài đặt xác thực 2 lớp để bảo vệ tài khoản của mình.
+Trường hợp được yêu cầu cài đặt 2FA, bạn sẽ nhận được thông báo yêu cầu cài đặt xác thực 2 lớp để bảo vệ tài khoản của mình. Nhấn **Next** (Tiếp theo) để bắt đầu quá trình cài đặt và làm theo hướng dẫn [ở bước 4: Yêu cầu bổ sung xác thực 2 lớp](/microsoft/account/dang-nhap).
 
 </Step>
 <Step title="Truy cập Trang Bảo mật">
-## Bước 2: Truy cập Trang Bảo mật
 
-1. Sau khi đăng nhập, nhấp vào **biểu tượng người dùng** ở góc trên bên phải và chọn **View account** (Xem tài khoản).
+Sau khi đăng nhập, nhấp vào **biểu tượng người dùng** ở góc trên bên phải và chọn **View account** (Xem tài khoản).
 
-2. Trong giao diện tài khoản, chọn **Security info** (Thông tin bảo mật) hoặc **Security** (Bảo mật) từ thanh điều hướng bên trái.
+<img
+  src="/images/microsoft/2fa/2fa_1.jpg"
+  alt="View Account"
+/>
 
-![Giao diện Tài khoản](path/to/your/image1.png)
 </Step>
 <Step title="Thiết lập Bảo mật 2 lớp">
 
-## Bước 3: Bắt đầu Thiết lập Bảo mật 2 lớp
+Trong phần **Security info** (Thông tin bảo mật) ở giữa trang, chọn **Update info** (Cập nhật thông tin) hoặc trong phần **Security info** ở bên trái thanh điều hướng để bắt đầu thiết lập 2FA.
 
-1. Trong phần **Security info** (Thông tin bảo mật), bạn sẽ thấy mục **Two-step verification** (Xác minh 2 bước). Nhấp vào **Set up two-step verification** (Thiết lập xác minh 2 bước) để bắt đầu.
+<img
+  src="/images/microsoft/2fa/2fa_2.jpg"
+  alt="Update Info"
+/>
 
-2. Một cửa sổ mới sẽ xuất hiện để hướng dẫn bạn thiết lập 2FA. Nhấp **Next** (Tiếp theo) để tiếp tục.
+Một cửa sổ mới sẽ xuất hiện để hướng dẫn bạn thiết lập 2FA. Nhấp **Next** (Tiếp theo) để tiếp tục.
 
-![Thiết lập Xác minh 2 bước](path/to/your/image2.png)
+<img
+  src="/images/microsoft/account/2fa_step0.png"
+  alt="Update Info"
+/>
 
 </Step>
-<Step title="Chọn Phương thức Xác thực">
-
-## Bước 4: Chọn Phương thức Xác thực
+<Step title="Chọn phương thức xác thực 2 lớp">
 
 Bạn có thể chọn một trong các phương thức xác thực sau:
 
 - **Microsoft Authenticator app**: Sử dụng ứng dụng Microsoft Authenticator để nhận mã xác thực.
-- **SMS hoặc Cuộc gọi điện thoại**: Nhận mã xác thực qua tin nhắn SMS hoặc cuộc gọi điện thoại.
+- **Different Authenticator app**: Sử dụng ứng dụng xác thực khác để nhận mã xác thực. (tài liệu này chưa có sẵn)
 
-Chọn phương thức bạn muốn sử dụng và làm theo hướng dẫn trên màn hình.
+Chọn phương thức bạn muốn sử dụng và làm theo hướng dẫn trên màn hình, bước tiếp theo sẽ hướng dẫn bạn cách cài đặt phương thức xác thực **Microsoft Authenticator app**.
 
-![Chọn Phương thức Xác thực](path/to/your/image3.png)
+<img
+  src="/images/microsoft/account/2fa_step1.jpg"
+  alt="Microsoft"
+/>
 
 </Step>
-<Step title="Thiết lập Microsoft Authenticator">
+<Step title="Thiết lập Microsoft Authenticator trên điện thoại">
 
-## Bước 5: Thiết lập Microsoft Authenticator (Nếu chọn)
+Nếu bạn chọn sử dụng ứng dụng **Microsoft Authenticator**, vui lòng làm theo các bước sau:
 
-Nếu bạn chọn sử dụng ứng dụng **Microsoft Authenticator**:
+<Steps>
 
-1. Tải ứng dụng Microsoft Authenticator từ [Google Play](https://play.google.com/store/apps/details?id=com.azure.authenticator) hoặc [App Store](https://apps.apple.com/us/app/microsoft-authenticator/id983156458) về điện thoại của bạn.
+<Step title="Tải ứng dụng Microsoft Authenticator trên điện thoại">
 
-2. Mở ứng dụng và chọn **Add account** (Thêm tài khoản) > **Work or school account** (Tài khoản công việc hoặc trường học).
+Tải ứng dụng Microsoft Authenticator từ [Google Play](https://play.google.com/store/apps/details?id=com.azure.authenticator) hoặc [App Store](https://apps.apple.com/us/app/microsoft-authenticator/id983156458) về điện thoại của bạn.
 
-3. Quét mã QR hiển thị trên màn hình máy tính bằng ứng dụng Authenticator.
-
-4. Nhấn **Next** (Tiếp theo) trên máy tính sau khi hoàn tất quét mã QR.
-
-![Thiết lập Microsoft Authenticator](path/to/your/image4.png)
 </Step>
-<Step title="Xác minh Phương thức Xác thực">
-## Bước 6: Xác minh Phương thức Xác thực
 
-Sau khi cài đặt, Microsoft sẽ yêu cầu bạn xác minh phương thức xác thực bằng cách nhập mã bạn nhận được qua ứng dụng hoặc tin nhắn. Nhập mã và nhấn **Next** (Tiếp theo) để hoàn tất xác minh.
+<Step title="Thêm tài khoản (trên điện thoại)">
+Mở ứng dụng và chọn **Add account** (Thêm tài khoản) > **Work or school account** (Tài khoản công việc hoặc trường học) > **Scan QR code**.
 
-![Xác minh Phương thức Xác thực](path/to/your/image5.png)
+<img
+  src="/images/microsoft/account/2fa_step3.png"
+  alt="Microsoft"
+/>
+
 </Step>
-<Step title="Hoàn tất Cài đặt">
 
-## Bước 7: Hoàn tất Cài đặt
+<Step title="Tiếp tục nhấn Next (trên máy tính) để bắt đầu cài đặt">
 
-Sau khi xác minh thành công, 2FA sẽ được kích hoạt cho tài khoản Microsoft 365 của bạn. Từ bây giờ, mỗi khi đăng nhập, bạn sẽ được yêu cầu nhập mã xác thực ngoài mật khẩu.
+<Warning>**QR Code** chỉ có hiệu lực trong vòng trong thời gian ngắn, vui lòng quét ngay sau khi nhìn thấy mã QR.</Warning>
 
-> **Lưu ý**: Hãy nhớ giữ thiết bị xác thực của bạn an toàn và không chia sẻ mã xác thực với bất kỳ ai.
+Nhấn **Next** (Tiếp theo) để bắt đầu cài đặt phương thức xác thực, bạn sẽ nhận được QR Code để quét trên ứng dụng Microsoft Authenticator.
+
+<img
+  src="/images/microsoft/account/2fa_step2.jpg"
+  alt="Microsoft"
+/>
+
+</Step>
+
+
+<Step title="Quét mã QR (trên điện thoại)">
+Quét mã QR hiển thị trên màn hình máy tính bằng ứng dụng Microsoft Authenticator.
+</Step>
+<Step title="Hoàn tất quét mã QR (trên máy tính)">
+Nhấn **Next** (Tiếp theo) trên máy tính sau khi hoàn tất quét mã QR và làm theo hướng dẫn theo máy tính để hoàn tất cài đặt.
+</Step>
+</Steps>
+</Step>
+<Step title="Hoàn tất cài đặt">
+
+Sau khi xác minh thành công, 2FA sẽ được kích hoạt cho tài khoản Microsoft 365 của bạn. Từ bây giờ, mỗi khi đăng nhập trên trình duyệt mới, bạn sẽ được yêu cầu nhập mã xác thực ngoài mật khẩu.
+
+<Note> **Lưu ý**: Hãy giữ thiết bị xác thực của bạn an toàn và không chia sẻ mã xác thực với bất kỳ ai.</Note>
+</Step>
+
+<Step title="Hoàn tất đăng nhập">
+
+Sau khi cài đặt 2FA thành công, bạn sẽ được chuyển hướng đến trang đăng nhập và được yêu cầu nhập mã xác thực từ ứng dụng Microsoft Authenticator hoặc ứng dụng xác thực khác bạn đã chọn.
+
 </Step>
 </Steps>
 

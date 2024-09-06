@@ -61,6 +61,9 @@ Nếu tài khoản của bạn chưa được cài đặt xác thực 2 lớp, b
   alt="Microsoft"
 />
 
+<iframe width="850"
+  height="500" src="https://www.youtube.com/embed/JCFAoMPFq-Q" title="Overview of multi factor authentication" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 <Warning>Việc cài đặt xác thực 2 lớp là bắt buộc đối với toàn bộ nhân viên công ty để bảo vệ thông tin cá nhân và dữ liệu quan trọng.</Warning>
 
 </Step>
@@ -117,10 +120,15 @@ Nhấn **Next** (Tiếp theo) để bắt đầu cài đặt phương thức xá
 
 
 <Step title="Quét mã QR (trên điện thoại)">
-Quét mã QR hiển thị trên màn hình máy tính bằng ứng dụng Microsoft Authenticator.
+Quét mã QR hiển thị trên màn hình máy tính bằng ứng dụng Microsoft Authenticator, sau khi quét mã thành công, ứng dụng sẽ hiển thị một tài khoản mới với tên của công ty và email của bạn.
+
+<img src="/images/microsoft/2fa/2fa_success.jpg" alt="2FA Scan QR Success" />
+
+<Tip>Trường hợp quét thất bại, bạn vui lòng quay lại bước 5 **Chọn phương thức xác thức 2 lớp** bằng cách nhấn **Back** trên màn hình máy tính để tiến hành thao tác lại.</Tip>
+
 </Step>
 <Step title="Hoàn tất quét mã QR (trên máy tính)">
-Nhấn **Next** (Tiếp theo) trên máy tính sau khi hoàn tất quét mã QR và làm theo hướng dẫn theo máy tính để hoàn tất cài đặt.
+Sau khi hoàn tất việc quét mã QR trên điện thoại, bạn tiếp tục  nhấn **Next** (Tiếp theo) trên máy tính và làm theo hướng dẫn theo máy tính để hoàn tất cài đặt.
 </Step>
 </Steps>
 </Step>
@@ -131,9 +139,15 @@ Sau khi xác minh thành công, 2FA sẽ được kích hoạt cho tài khoản 
 <Note> **Lưu ý**: Hãy giữ thiết bị xác thực của bạn an toàn và không chia sẻ mã xác thực với bất kỳ ai.</Note>
 </Step>
 
-<Step title="Xác thực hai yếu tố (trường hợp đã thiết lập trước đó)">
+<Step title="Xác thực hai yếu tố (nếu không được yêu cầu có thể bỏ qua bước này)">
 
-Nếu tài khoản của bạn yêu cầu xác thực hai yếu tố, bạn sẽ nhận được thông báo yêu cầu nhập mã xác thực từ ứng dụng Microsoft Authenticator trên điện thoại. Mở ứng dụng và nhập mã xác thực hiển thị trên ứng dụng vào ô **Enter the code** (Nhập mã) trên trình duyệt web.
+Nếu tài khoản của bạn yêu cầu xác thực hai yếu tố, bạn sẽ nhận được thông báo yêu cầu nhập mã xác thực từ ứng dụng **Microsoft Authenticator** trên điện thoại. Mở ứng dụng bằng điện thoại của bạn và nhập mã xác thực hiển thị trên màn hình máy tính (như hình dưới) vào ô xác thực và nhấn **Next** (Tiếp theo).
+
+<img
+  src="/images/microsoft/2fa/2fa_request.jpg"
+  alt="2FA Request"
+/>
+
 </Step>
 
 <Step title="Hoàn tất đăng nhập">
