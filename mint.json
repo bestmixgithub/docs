@@ -5,6 +5,10 @@
 		"dark": "/logo/dark.png",
 		"light": "/logo/light.png"
 	},
+    "modeToggle": {
+        "default": "light",
+        "isHidden": true
+    },
 	"favicon": "/favicon.png",
 	"colors": {
 		"primary": "#0D9373",
@@ -62,5 +66,8 @@
 			]
 		}
 	],
-	"footerSocials": {}
+	"footerSocials": {},
+    "feedback": {
+        "thumbsRating": true
+    }
 }
