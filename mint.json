@@ -35,8 +35,8 @@
 				"microsoft/gioi-thieu",
                 "microsoft/chao-mung",
 				{
-					"group": "Xác thực",
-                    "icon": "lock",
+					"group": "Tài khoản",
+                    "icon": "user",
 					"pages": [
 						"microsoft/account/dang-nhap",
 						"microsoft/account/2fa",
